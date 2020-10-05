@@ -76,7 +76,7 @@ public class AdminDaoImpl implements AdmainDao {
     @Override
     public int update(Admain admin) {
         Connection conn = null;
-        PreparedStatement ps = null;·
+        PreparedStatement ps = null;
         int i = 0;
         try {
             conn = jdbcutils.getConnection();
